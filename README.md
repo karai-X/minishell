@@ -16,37 +16,17 @@ C言語でshellを再実装した。
 
 # 実行方法
 ```
-git clone https://github.com/karai-X/pusw_swap.git
+git clone https://github.com/karai-X/minishell.git
+```
+```
+cd minishell
 ```
 ```
 make
 ```
 ```
-./push_swap 5 4 1 3 9
+./minishell
 ```
-## 入力
-./push_swap (正の整数)  
-## 出力
-並び替えるための操作が出力される。
-## 実行例
-```
-./push_swap 5 4 1 3 9
-```
-出力
-```
-pb  
-ra  
-ra  
-ra  
-pb  
-ra  
-sb  
-pa  
-ra  
-pa  
-ra  
-```
-# Visualizer
-https://github.com/user-attachments/assets/86ae43b5-371b-46be-95aa-6ab595fa1bdb
-
-
+プログラム実行後は通常のshellと同じように操作可能
+# デモンストレーション
+https://github.com/user-attachments/assets/f0f2040a-944e-49de-aac4-07fec895184c
